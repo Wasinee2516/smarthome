@@ -6,14 +6,13 @@
 <?php
  $Temperature = file_get_contents('https://api.thingspeak.com/channels/1458415/fields/1/last.txt');
  $Humidity = file_get_contents('https://api.thingspeak.com/channels/1458415/fields/2/last.txt');
-"<br>" echo "Temperature is = ".$Temperature."</br>";
-"<br>" echo "Humidity is = ".$Humidity "</br>";
 ?>
 <script type="text/JavaScript">
-
 function timedRefresh(timeoutPeriod) {
     setTimeout("location.reload(true);",timeoutPeriod);
 }
 </script>
+ <br> echo "Temperature is = ".$Temperature </br>;
+ <br> echo "Humidity is = ".$Humidity </br>;
 </body>
 
