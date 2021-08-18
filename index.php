@@ -13,6 +13,10 @@ function timedRefresh(timeoutPeriod) {
 }
 </script>
  <br> <?php echo "Humidity is = ".$Temperature ?> </br> 
+  div.relative {
+  position: relative;
+  left: 30px;
  <br> <?php echo "Temperature is = ".$Humidity ?> </br>
+ 
 </body>
 
