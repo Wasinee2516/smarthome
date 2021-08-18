@@ -12,8 +12,8 @@ function timedRefresh(timeoutPeriod) {
     setTimeout("location.reload(true);",timeoutPeriod);
 }
 </script>
- <br> <?php echo "Humidity is = ".$Temperature ?> </br> 
- <br> <?php echo "Temperature is = ".$Humidity ?> </br>
+ <br> <?php echo " align="left" Humidity is = ".$Temperature ?> </br> 
+ <br> <?php echo "lign="center" Temperature is = ".$Humidity ?> </br>
  
 </body>
 
