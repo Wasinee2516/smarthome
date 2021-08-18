@@ -18,7 +18,7 @@ body {
   background-color: #f1f1f1;
   padding: 30px;
   text-align: center;
-  font-size: 35px;
+  font-size: 25px;
 }
 
 /* Create three equal columns that floats next to each other */
@@ -74,7 +74,7 @@ function timedRefresh(timeoutPeriod) {
  <br> <?php echo "Humidity is = ".$Temperature ?> </br> 
  <br> <?php echo " Temperature is = ".$Humidity ?> </br>
   <div class="footer">
-  <p>Footer</p>
+  <p>Workshop</p>
   </div>
 </div>
 
