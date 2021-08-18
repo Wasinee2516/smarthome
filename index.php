@@ -4,10 +4,10 @@
 <iframe src="https://thingspeak.com/channels/1458415/charts/2?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15" width="450" height="260"></iframe>
 <iframe src="https://thingspeak.com/channels/1458415/maps/channel_show" width="450" height="260"></iframe>
 <?php
- $temp = file_get_contents('https://api.thingspeak.com/channels/1458415/fields/1/last.txt');
- $humidity = file_get_contents('https://api.thingspeak.com/channels/1458415/fields/2/last.txt');
- echo "temp is = ".$temp."<br>";
- echo "humidity is = ".$humidity;
+ $Temperature(c) = file_get_contents('https://api.thingspeak.com/channels/1458415/fields/1/last.txt');
+ $Humidity(%) = file_get_contents('https://api.thingspeak.com/channels/1458415/fields/2/last.txt');
+"<br>" echo "temp is = ".$temp."</br>";
+"<br>" echo "humidity is = ".$humidity "</br>";
 ?>
 <script type="text/JavaScript">
 
